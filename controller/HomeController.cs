@@ -13,13 +13,13 @@ namespace mvc2.controller
         //}  
 
 
-        //public ContentResult Index()
-        //{
+        public ContentResult Indexx()
+        {
 
-        //    ContentResult result = new ContentResult();
-        //    result.Content = "hello from ContentResult";
-        //    return result;
-        //}
+            ContentResult result = new ContentResult();
+            result.Content = "hello from ContentResult";
+            return result;
+        }
 
         public ActionResult Index()
         {
